@@ -1,0 +1,57 @@
+{
+    "name": "mvanduijker/laravel-model-exists-rule",
+    "description": "Validation rule to check if a model exists",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "database",
+        "validation",
+        "rule",
+        "model",
+        "laravel-model-exists-rule"
+    ],
+    "homepage": "https://github.com/mvanduijker/laravel-model-exists-rule",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mark van Duijker",
+            "email": "mark@duyker.nl",
+            "homepage": "https://github.com/mvanduijker",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/database": "~5.5.0|~5.6.0|~5.7.0|~5.8.0"
+    },
+    "require-dev": {
+        "larapack/dd": "^1.0",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Duijker\\LaravelModelExistsRule\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Duijker\\LaravelModelExistsRule\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Duijker\\LaravelModelExistsRule\\LaravelModelExistsServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
