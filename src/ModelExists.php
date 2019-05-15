@@ -54,7 +54,7 @@ class ModelExists implements Rule
                     $query->where($this->modelAttribute, $this->value);
                 }
             )
-            ->where($this->closure)
+            ->tap($this->closure)
             ->exists();
     }
 
