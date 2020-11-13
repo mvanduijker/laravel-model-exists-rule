@@ -1,7 +1,7 @@
 # Laravel Model Exists Rule
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mvanduijker/laravel-model-exists-rule.svg?style=flat-square)](https://packagist.org/packages/mvanduijker/laravel-model-exists-rule)
-[![Build Status](https://img.shields.io/travis/mvanduijker/laravel-model-exists-rule/master.svg?style=flat-square)](https://travis-ci.org/mvanduijker/laravel-model-exists-rule)
+![Build Status](https://github.com/mvanduijker/laravel-model-exists-rule/workflows/Run%20tests/badge.svg)
 [![Total Downloads](https://img.shields.io/packagist/dt/mvanduijker/laravel-model-exists-rule.svg?style=flat-square)](https://packagist.org/packages/mvanduijker/laravel-model-exists-rule)
 
 
