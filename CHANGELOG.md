@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-model-exists-rule` will be documented in this file
 
+## 1.5.0 - 2022-02-09
+
+- added support for Laravel 9
+
 ## 1.4.0 - 2021-02-06
 
 - added support for php 8
