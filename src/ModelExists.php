@@ -23,11 +23,6 @@ class ModelExists implements Rule
     private $closure;
 
     /**
-     * @var string
-     */
-    private $attribute;
-
-    /**
      * @var mixed
      */
     private $value;
@@ -41,7 +36,6 @@ class ModelExists implements Rule
 
     public function passes($attribute, $value)
     {
-        $this->attribute = $attribute;
         $this->value = $value;
 
         return $this->modelClass::query()
@@ -61,7 +55,6 @@ class ModelExists implements Rule
     public function message()
     {
         return trans('validation.model_exists', [
-            'attribute' => $this->attribute,
             'value' => $this->value,
             'model' => class_basename($this->modelClass),
             'model_attribute' => $this->modelAttribute,
