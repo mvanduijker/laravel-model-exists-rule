@@ -78,7 +78,7 @@ class ModelExistsTest extends TestCase
         $rule = new ModelExists(User::class);
         $rule->passes('user_id', 'unexisting');
 
-        $this->assertEquals('Field user_id has no User with id unexisting', $rule->message());
+        $this->assertEquals('Field :attribute has no User with id unexisting', $rule->message());
     }
 
     /** @test */
