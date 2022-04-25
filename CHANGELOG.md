@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-model-exists-rule` will be documented in this file
 
+## 2.0.0 - 2022-04-25
+
+- fix attributes https://github.com/mvanduijker/laravel-model-exists-rule/pull/4
+
 ## 1.5.0 - 2022-02-09
 
 - added support for Laravel 9
