@@ -27,10 +27,10 @@ class ModelExists implements Rule
      */
     private $value;
 
-    public function __construct(string $modelClass, string $modelAttribute = 'id', callable $closure = null)
+    public function __construct(string $modelClass, string $modelAttribute = null, callable $closure = null)
     {
         $this->modelClass = $modelClass;
-        $this->modelAttribute = $modelAttribute;
+        $this->modelAttribute = $modelAttribute ?: (new $modelClass)->getKeyName();
         $this->closure = $closure ?? function () {};
     }
 
