@@ -2,6 +2,11 @@
 
 All notable changes to `laravel-model-exists-rule` will be documented in this file
 
+## 3.2.0 - 2024-03-13
+
+- Add support for Laravel 11
+- Added PHP 8.3 in the pipeline
+
 ## 3.1.0 - 2023-02-14
 
 - Add support for Laravel 10
