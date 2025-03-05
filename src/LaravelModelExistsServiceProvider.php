@@ -9,7 +9,7 @@ class LaravelModelExistsServiceProvider extends ServiceProvider
 {
     function boot()
     {
-        Rule::macro('modelExists', function (string $modelClass, string $modelAttribute = 'id', callable $callback = null) {
+        Rule::macro('modelExists', function (string $modelClass, string $modelAttribute = 'id', ?callable $callback = null) {
             return new ModelExists($modelClass, $modelAttribute, $callback);
         });
 
