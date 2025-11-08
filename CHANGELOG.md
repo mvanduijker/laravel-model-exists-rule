@@ -2,9 +2,13 @@
 
 All notable changes to `laravel-model-exists-rule` will be documented in this file
 
-## 3.3.1 - 2025-11-08
+## 3.3.2 - 2025-11-08
 
 - Add support PHP 8.5
+
+## 3.3.1 - 2025-03-06
+
+- Fix warning
 
 ## 3.3.0 - 2025-02-28
 
