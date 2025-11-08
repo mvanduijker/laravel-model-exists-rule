@@ -2,6 +2,10 @@
 
 All notable changes to `laravel-model-exists-rule` will be documented in this file
 
+## 3.3.1 - 2025-11-08
+
+- Add support PHP 8.5
+
 ## 3.3.0 - 2025-02-28
 
 - Add support for Laravel 12
@@ -17,11 +21,11 @@ All notable changes to `laravel-model-exists-rule` will be documented in this fi
 
 ## 3.0.0 - 2022-05-02
 
-- Added autoguessing of the model key. BC chang: Specify the key if your model key is not "id" and the modelAttribute is not specified in ModelExists object. (Very rare) 
+- Added autoguessing of the model key. BC chang: Specify the key if your model key is not "id" and the modelAttribute is not specified in ModelExists object. (Very rare)
 
 ## 2.0.0 - 2022-04-25
 
-- fix attributes https://github.com/mvanduijker/laravel-model-exists-rule/pull/4
+- fix attributes <https://github.com/mvanduijker/laravel-model-exists-rule/pull/4>
 
 ## 1.5.0 - 2022-02-09
 
